@@ -4,6 +4,7 @@ import { WavyBackgroundDemo } from './WavyBackgroundDemo'
 import { AuroraBackgroundDemo } from './AuroraBackground'
 import { BackgroundBoxesDemo } from './BackgroundBoxesDemo'
 import { FeaturesSectionDemo } from './FeaturesSectionDemo'
+import { CardHoverEffectDemo } from './CardHoverEffectDemo'
 import Navbar from "./components/Navbar";
 
 const App = () => {
@@ -14,7 +15,8 @@ const App = () => {
       {/* <ThreeDCardDemo /> */}
       {/* <WavyBackgroundDemo /> */}
       <BackgroundBoxesDemo />
-      <FeaturesSectionDemo/>
+      <FeaturesSectionDemo />
+      <CardHoverEffectDemo/>
     </div>
   )
 }
